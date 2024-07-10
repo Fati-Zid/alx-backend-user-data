@@ -22,6 +22,7 @@ def unauthorized() -> None:
     """
     abort(401)
 
+
 @app_views.route('/stats/', strict_slashes=False)
 def stats() -> str:
     """ GET /api/v1/stats
